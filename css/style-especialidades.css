@@ -1,0 +1,136 @@
+.sessao-especialidade{
+    margin-top: 40px;
+}
+
+.container-titulo {
+    padding: 0 20px;
+  }
+
+.container-especialidades{
+    text-align: center;
+    padding: 20px 0;
+    color: #0000008c;
+}
+
+.container-especialidades nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container-especialidades nav a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: #0000008c;
+    font-weight: 700;
+    font-size: 17px;
+    border-bottom: 1px solid #00cad1;
+}
+
+.container-especialidades nav a:hover{
+    color: #009fa5;
+}
+
+.container-especialidades h1{
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+.container-titulo{
+    text-align: center;
+    padding-bottom: 30px;
+    color: #0000008c;
+}
+
+.container-titulo h3{
+    padding-bottom: 10px;
+}
+
+.container-titulo p{
+    width: 450px;
+    margin: 0 auto;
+}
+
+.tabela-especialidades{
+    display: flex;
+    height: 240px;
+    padding: 0 20px;
+}
+
+.tabela-especialidades img{
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tabela-especialidades table{
+    border-spacing: 0;
+    text-align: left;
+    width: 70%;
+    height: 100%;
+}
+
+.tabela-especialidades thead tr {
+    background-color: #00cad1;
+    color: #fff;
+}
+
+
+.tabela-especialidades tr {
+    background-color: #f1f1f1;
+    color: #585757;
+    font-weight: 500;
+}
+
+.tabela-especialidades tbody tr:nth-of-type(2n+1) {
+    background-color: #cdcdcd;
+    border: 1px solid #f1f1f1;
+}
+  
+.tabela-especialidades th, .tabela-especialidades td  {
+    padding: 10px;
+}
+
+/* Responsivo */
+
+@media screen and (max-width:425px){
+
+    .tabela-especialidades img{
+        display: none;
+    }
+
+    .especialidades-links{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #psicologia{
+        padding-top: 40px;
+    }
+
+    .container-titulo p{
+        width: 350px;
+    }
+  
+    .tabela-especialidades table{
+        width: 100%;
+    }
+
+    .secao-rodape{
+        margin-top: 140px;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:768px){
+    .tabela-especialidades img{
+        display: none;
+    }
+
+    .tabela-especialidades table{
+        width: 100%;
+    }
+
+    .secao-rodape{
+        margin-top: 50px;
+    }
+}
